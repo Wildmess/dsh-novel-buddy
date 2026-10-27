@@ -1,6 +1,6 @@
 {
   "name": "dsh-novel-buddy",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "小说陪读吐槽：抓番茄小说正文（自动破解字体反爬），让鱼整理剧情、毒舌点评、滚动维护前情提要，可选追更主动来报。",
   "keywords": [
     "dsh",
@@ -22,6 +22,10 @@
     "lib/index.js",
     "lib/fanqie.js",
     "lib/persona.js",
+    "lib/credential.js",
+    "lib/search.js",
+    "lib/explore.js",
+    "scripts/credential.js",
     "assets/charset.json",
     "cordis.patch.yml",
     "README.md",
