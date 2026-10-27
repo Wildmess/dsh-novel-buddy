@@ -1,0 +1,4 @@
+# 本地测试沙箱（test.mjs 会写到 .test-home/）
+.test-home/
+
+node_modules/

@@ -1,0 +1,31 @@
+{
+  "name": "dsh-novel-buddy",
+  "version": "0.1.0",
+  "description": "小说陪读吐槽：抓番茄小说正文（自动破解字体反爬），让鱼整理剧情、毒舌点评、滚动维护前情提要，可选追更主动来报。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "novel",
+    "fanqie",
+    "companion"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./fanqie": "./lib/fanqie.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/fanqie.js",
+    "lib/persona.js",
+    "assets/charset.json",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT"
+}

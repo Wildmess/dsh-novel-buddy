@@ -1,0 +1,4 @@
+# dsh-novel-buddy bundle patch: 把陪读插件插进 profile 的层栈。
+- insert:
+    - id: novel-buddy
+      name: 'dsh-novel-buddy'
