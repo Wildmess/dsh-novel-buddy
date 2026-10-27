@@ -10,8 +10,8 @@
 ## 安装（Windows / web profile）
 
 ```powershell
-# 从 GitHub 安装（推荐，发布后可用）
-dsh plugin --profile web add github:<owner>/dsh-novel-buddy
+# 从 GitHub 安装
+dsh plugin --profile web add github:Wildmess/dsh-novel-buddy
 
 # 本地软链安装（改代码立即生效，目录不能移动；适合开发者）
 dsh plugin --profile web add link:<插件目录的绝对路径>

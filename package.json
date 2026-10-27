@@ -27,5 +27,10 @@
     "README.md",
     "LICENSE"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "author": "Wildmess",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wildmess/dsh-novel-buddy.git"
+  }
 }
